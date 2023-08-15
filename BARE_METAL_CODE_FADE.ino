@@ -19,5 +19,4 @@ for(brightness=255;brightness>=0;brightness-=10)
   for(long i=0;i<100000;i++){portb=0;}
 }
 }
-  
-  // put your main code here, to run repeatedly:
+
