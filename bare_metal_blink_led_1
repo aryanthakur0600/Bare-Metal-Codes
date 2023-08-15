@@ -1,0 +1,12 @@
+void setup() {
+ DDRB=32;
+}
+
+void loop() {
+  PORTB=32;   
+  //delay(2000);  
+  for(long i=0;i<1000000;i++){PORTB=32;}                     
+  PORTB=0;    
+  //delay(1000);  
+  for(long i=0;i<1000000;i++){PORTB=0;}                        
+}
